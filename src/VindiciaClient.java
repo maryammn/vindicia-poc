@@ -12,9 +12,9 @@ public class VindiciaClient {
 	     * Create private constructor
 	     */
 	    private VindiciaClient(){
-	    	com.vindicia.client.ClientConstants.DEFAULT_VINDICIA_SERVICE_URL = "https://soap.prodtest.sj.vindicia.com";
-			com.vindicia.client.ClientConstants.SOAP_LOGIN = "spiritclips_soap";
-			com.vindicia.client.ClientConstants.SOAP_PASSWORD = "DNMB97ILIaMySPT6Q9e4n8rtCRSdqh2t";
+	    	com.vindicia.client.ClientConstants.DEFAULT_VINDICIA_SERVICE_URL = "prodtest URL";
+			com.vindicia.client.ClientConstants.SOAP_LOGIN = "username";
+			com.vindicia.client.ClientConstants.SOAP_PASSWORD = "password";
 			com.vindicia.client.ClientConstants.DEFAULT_TIMEOUT = 25000; // ms
 	 }
 	    /**
